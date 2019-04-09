@@ -1,2 +1,11 @@
+# Avoid tracking project dependencies
 node_modules
+
+# Avoid tracking build files
 dist
+
+# Avoid tracking things we're going to deploy
+public
+.firebaserc
+firebase.json
+hosting.*
